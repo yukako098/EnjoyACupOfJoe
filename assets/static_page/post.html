@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dulce Vicio's Blog</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/blogs.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="..css/post.css"
+    />
+
+    <script src="../js/blog.js"></script>
+    <!-- <script src="./assets/js/script.js"></script> -->
+  </head>
+  <body>
+    <!-- search page -->
+    <div id="search-page">
+      <form class="search-page-header">
+        <input
+          type="search"
+          name="keyword"
+          placeholder="Search "
+          id="keyword-input"
+          value=""
+        />
+        <button
+          type="button"
+          class="close"
+          aria-label="Close"
+          onclick="goToMain()"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </form>
+
+      <div class="search-container container">
+        <div class="search-flex d-flex justify-content-between">
+          <div class="img-card card">
+            <img
+              class="card-img"
+              src="./assets/img/post1.jpg"
+              alt="Card image"
+            />
+          </div>
+          <div class="text-card card">
+            <div class="text-body card-body">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-flex d-flex justify-content-between">
+          <div class="img-card card">
+            <img
+              class="card-img"
+              src="./assets/img/post2.jpg"
+              alt="Card image"
+            />
+          </div>
+          <div class="text-card card">
+            <div class="text-body card-body">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-flex d-flex justify-content-between">
+          <div class="img-card card">
+            <img
+              class="card-img"
+              src="./assets/img/post3.jpg"
+              alt="Card image"
+            />
+          </div>
+          <div class="text-card card">
+            <div class="text-body card-body">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-flex d-flex justify-content-between">
+          <div class="img-card card">
+            <img
+              class="card-img"
+              src="./assets/img/food.jpg"
+              alt="Card image"
+            />
+          </div>
+          <div class="text-card card">
+            <div class="text-body card-body">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="other-pages container">
+          <nav aria-label="...">
+            <ul class="pagination pagination-sm">
+              <li class="page-item disabled">
+                <a class="page-link" href="#!" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#!">1</a></li>
+              <li class="page-item"><a class="page-link" href="#!">2</a></li>
+              <li class="page-item"><a class="page-link" href="#!">3</a></li>
+              <li class="page-item"><a class="page-link" href="#!">Next</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div id="main-page">
+      <header class="header navbar navbar-expand-lg navbar-light">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="header-brand navbar-brand" href="#!">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#!">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              href="./assets/
+            top.html"
+              >Web site</a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <button
+            id="search"
+            class="btn btn-outline-success my-2 my-sm-0"
+            type="button"
+            onclick="goToSearch()"
+          >
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </header>
+
+      <div class="post-image">
+        <img src="./assets/img/post1.jpg" alt="" />
+        <div class="centralize">
+          <div class="post-card-body card-body">
+            <h4>Special title treatment</h4>
+            <p>
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="container post-container">
+          <h4>Special title treatment</h4>
+          <div class="card">
+            <div class="card-body">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </div>
+          </div>
+          <br />
+          <br />
+          <article>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word in classical literature,
+            discovered the undoubtable source. Lorem Ipsum comes from sections
+            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a
+            treatise on the theory of ethics, very popular during the
+            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+            amet..", comes from a line in section 1.10.32.
+          </article>
+          <img src="./assets/img/food.jpg" alt="" class="post_img" /> <br />
+          <br />
+          <article>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum
+          </article>
+          <div class="suggestion">
+            <div class="blockquote-footer">RECOMMENDED ARTICLES</div>
+            <div class="d-flex justify-content-center">
+              <div class="p-2">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/post1.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="post-card-body card-body">
+                      <p class="genre">genre</p>
+                      <h5 class="card-title">Special title treatment</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/post1.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="post-card-body card-body">
+                      <p class="genre">genre</p>
+                      <h5 class="card-title">Special title treatment</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/post1.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="post-card-body card-body">
+                      <p class="genre">genre</p>
+                      <h5 class="card-title">Special title treatment</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/post1.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="post-card-body card-body">
+                      <p class="genre">genre</p>
+                      <h5 class="card-title">Special title treatment</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="suggestion">
+            <div class="blockquote-footer">MOST POPULAR ARTICLES</div>
+            <div class="d-flex justify-content-center">
+              <div class="p-2">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/post1.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="post-card-body card-body">
+                      <p class="genre">genre</p>
+                      <h5 class="card-title">Special title treatment</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/post1.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="post-card-body card-body">
+                      <p class="genre">genre</p>
+                      <h5 class="card-title">Special title treatment</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/post1.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="post-card-body card-body">
+                      <p class="genre">genre</p>
+                      <h5 class="card-title">Special title treatment</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="card-img-top"
+                      src="./assets/img/post1.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="post-card-body card-body">
+                      <p class="genre">genre</p>
+                      <h5 class="card-title">Special title treatment</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- container -->
+      </div>
+      <footer class="blog_contact contact_section">
+        <div class="contact_left">
+          <div class="centralize">
+            <p class="contact_p">cafe</p>
+            <h3 class="contact_h3">Dulce Vicio</h3>
+            <div class="contact_container">
+              <div class="contact_container_left">
+                <ul class="contact_ul">
+                  <li class="contact_list">
+                    <address>
+                      116, Altamira, Bellavista, 36730 Salamanca, Gto., Mexico
+                    </address>
+                  </li>
+                  <li class="contact_list">
+                    <p class="tel">+52 464 690 8715</p>
+                  </li>
+                  <li class="contact_list">
+                    <i class="fab fa-facebook fa-2x"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="contact_container_right">
+                <div class="open_time">
+                  <div class="days">
+                    <ul class="contact_ul">
+                      <li class="contact_list">Mon - Fri</li>
+                      <li class="contact_list">Sat</li>
+                      <li class="contact_list">Sun</li>
+                    </ul>
+                  </div>
+                  <div class="hours">
+                    <ul class="contact_ul">
+                      <li class="contact_list">9am - 9pm</li>
+                      <li class="contact_list">9am - 7pm</li>
+                      <li class="contact_list">Closed</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact_right">
+          <div class="map centralize">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.227638879857!2d-101.19918228503136!3d20.57875930836364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842c8504bdbadc73%3A0xd8130fa6aa83e001!2sAltamira+116%2C+Bellavista%2C+36730+Salamanca%2C+Gto.%2C+Mexico!5e0!3m2!1sen!2sca!4v1542421183864"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- jQuery?Popper.js?Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

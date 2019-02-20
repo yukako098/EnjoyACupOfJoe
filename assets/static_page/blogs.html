@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Dulce Vicio's Blog</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+            integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+            crossorigin="anonymous"
+        />
+
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="../css/blogs.css"
+        />
+        <script src="../js/blog.js"></script>
+    </head>
+    <body>
+        <!-- search page -->
+        <div id="search-page">
+            <form class="search-page-header">
+                <input
+                    type="search"
+                    name="keyword"
+                    placeholder="Search "
+                    id="keyword-input"
+                    value=""
+                />
+                <button
+                    type="button"
+                    class="close"
+                    aria-label="Close"
+                    onclick="goToMain()"
+                >
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </form>
+
+            <div class="search-container container">
+                <div class="search-flex d-flex justify-content-between">
+                    <div class="img-card card">
+                        <img
+                            class="card-img"
+                            src="../img/post1.jpg"
+                            alt="Card image"
+                        />
+                    </div>
+                    <div class="text-card card">
+                        <div class="text-body card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in
+                                to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-flex d-flex justify-content-between">
+                    <div class="img-card card">
+                        <img
+                            class="card-img"
+                            src="../img/post2.jpg"
+                            alt="Card image"
+                        />
+                    </div>
+                    <div class="text-card card">
+                        <div class="text-body card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in
+                                to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-flex d-flex justify-content-between">
+                    <div class="img-card card">
+                        <img
+                            class="card-img"
+                            src="../img/post3.jpg"
+                            alt="Card image"
+                        />
+                    </div>
+                    <div class="text-card card">
+                        <div class="text-body card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in
+                                to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-flex d-flex justify-content-between">
+                    <div class="img-card card">
+                        <img
+                            class="card-img"
+                            src="../img/food.jpg"
+                            alt="Card image"
+                        />
+                    </div>
+                    <div class="text-card card">
+                        <div class="text-body card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in
+                                to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="other-pages container">
+                    <nav aria-label="...">
+                        <ul class="pagination pagination-sm">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#!" tabindex="-1"
+                                    >Previous</a
+                                >
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#!">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#!">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#!">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#!">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-page">
+            <header class="header navbar navbar-expand-lg navbar-light">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="header-brand navbar-brand" href="/">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./reservation.html"
+                            >Reservation</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link "
+                            href="./
+            top.html"
+                            >Web site</a
+                        >
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button
+                        id="search"
+                        class="btn btn-outline-success my-2 my-sm-0"
+                        type="button"
+                        onclick="goToSearch()"
+                    >
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </header>
+
+            <div class="top-image">
+                <div class="centralize">
+                    <p class="blog_top_p">cafe</p>
+                    <h1 class="blog_top_h1 top_h1">Dulce Vicio</h1>
+                </div>
+                <img src="../img/left_top.png" alt="" class="blog_img1" />
+                <img src="../img/right_top.png" alt="" class="blog_img2" />
+                <img src="../img/left_bottom.png" alt="" class="blog_img3" />
+                <img src="../img/right_bottom.png" alt="" class="blog_img4" />
+            </div>
+
+            <div class="main">
+                <ul class="main-nav nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#!">Recent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Daily</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">Recipe</a>
+                    </li>
+                </ul>
+                <ul class="main-nav-mb list-group">
+                    <li class="list-group-item active">Most Recent</li>
+                    <li class="list-group-item">Popular</li>
+                    <li class="list-group-item">Daily</li>
+                    <li class="list-group-item">Recipe</li>
+                </ul>
+
+                <div class="blogs container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <a href="./post.html">
+                                    <img
+                                        class="card-img-top"
+                                        src="../img/post3.jpg"
+                                        alt="Card image cap"
+                                    />
+                                    <div class="main-card-body card-body">
+                                        <p class="card-genre">Daily</p>
+                                        <h4 class="card-title">
+                                            Special title treatment
+                                        </h4>
+                                        <p class="card-text">
+                                            With supporting text below as a
+                                            natural lead-in to additional
+                                            content.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <a href="./post.html" class="main-linkTo-ablog">
+                                    <img
+                                        class="card-img-top"
+                                        src="../img/food.jpg"
+                                        alt="Card image cap"
+                                    />
+                                    <div class="main-card-body card-body">
+                                        <h4 class="card-title">
+                                            Special title treatment
+                                        </h4>
+                                        <p class="card-text">
+                                            With supporting text below as a
+                                            natural lead-in to additional
+                                            content.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <a href="./post.html" class="main-linkTo-ablog">
+                                    <img
+                                        class="card-img-top"
+                                        src="../img/post1.jpg"
+                                        alt="Card image cap"
+                                    />
+                                    <div class="main-card-body card-body">
+                                        <h4 class="card-title">
+                                            Special title treatment
+                                        </h4>
+                                        <p class="card-text">
+                                            With supporting text below as a
+                                            natural lead-in to additional
+                                            content.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blogs container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <a href="./post.html">
+                                    <img
+                                        class="card-img-top"
+                                        src="./assets/img/post3.jpg"
+                                        alt="Card image cap"
+                                    />
+                                    <div class="main-card-body card-body">
+                                        <h4 class="card-title">
+                                            Special title treatment
+                                        </h4>
+                                        <p class="card-text">
+                                            With supporting text below as a
+                                            natural lead-in to additional
+                                            content.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <a href="./post.html" class="main-linkTo-ablog">
+                                    <img
+                                        class="card-img-top"
+                                        src="./assets/img/food.jpg"
+                                        alt="Card image cap"
+                                    />
+                                    <div class="main-card-body card-body">
+                                        <h4 class="card-title">
+                                            Special title treatment
+                                        </h4>
+                                        <p class="card-text">
+                                            With supporting text below as a
+                                            natural lead-in to additional
+                                            content.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <a href="./post.html" class="main-linkTo-ablog">
+                                    <img
+                                        class="card-img-top"
+                                        src="./assets/img/post1.jpg"
+                                        alt="Card image cap"
+                                    />
+                                    <div class="main-card-body card-body">
+                                        <h4 class="card-title">
+                                            Special title treatment
+                                        </h4>
+                                        <p class="card-text">
+                                            With supporting text below as a
+                                            natural lead-in to additional
+                                            content.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blogs container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <a href="./post.html">
+                                    <img
+                                        class="card-img-top"
+                                        src="./assets/img/post3.jpg"
+                                        alt="Card image cap"
+                                    />
+                                    <div class="main-card-body card-body">
+                                        <h4 class="card-title">
+                                            Special title treatment
+                                        </h4>
+                                        <p class="card-text">
+                                            With supporting text below as a
+                                            natural lead-in to additional
+                                            content.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <a href="./post.html" class="main-linkTo-ablog">
+                                    <img
+                                        class="card-img-top"
+                                        src="./assets/img/food.jpg"
+                                        alt="Card image cap"
+                                    />
+                                    <div class="main-card-body card-body">
+                                        <h4 class="card-title">
+                                            Special title treatment
+                                        </h4>
+                                        <p class="card-text">
+                                            With supporting text below as a
+                                            natural lead-in to additional
+                                            content.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <a href="./post.html" class="main-linkTo-ablog">
+                                    <img
+                                        class="card-img-top"
+                                        src="./assets/img/post1.jpg"
+                                        alt="Card image cap"
+                                    />
+                                    <div class="main-card-body card-body">
+                                        <h4 class="card-title">
+                                            Special title treatment
+                                        </h4>
+                                        <p class="card-text">
+                                            With supporting text below as a
+                                            natural lead-in to additional
+                                            content.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div
+                        class="pages-btn container d-inline-block d-flex justify-content-center"
+                    >
+                        <a class="p-2 btn btn-sm">Older Articles</a>
+                        <a class="p-2 btn btn-sm">View All</a>
+                    </div>
+                </div>
+            </div>
+            <!-- main -->
+            <footer class="blog_contact contact_section">
+                <div class="contact_left">
+                    <div class="centralize">
+                        <p class="contact_p">cafe</p>
+                        <h3 class="contact_h3">Dulce Vicio</h3>
+                        <div class="contact_container">
+                            <div class="contact_container_left">
+                                <ul class="contact_ul">
+                                    <li class="contact_list">
+                                        <address>
+                                            116, Altamira, Bellavista, 36730
+                                            Salamanca, Gto., Mexico
+                                        </address>
+                                    </li>
+                                    <li class="contact_list">
+                                        <p class="tel">+52 464 690 8715</p>
+                                    </li>
+                                    <li class="contact_list">
+                                        <i class="fab fa-facebook fa-2x"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contact_container_right">
+                                <div class="open_time">
+                                    <div class="days">
+                                        <ul class="contact_ul">
+                                            <li class="contact_list">
+                                                Mon - Fri
+                                            </li>
+                                            <li class="contact_list">Sat</li>
+                                            <li class="contact_list">Sun</li>
+                                        </ul>
+                                    </div>
+                                    <div class="hours">
+                                        <ul class="contact_ul">
+                                            <li class="contact_list">
+                                                9am - 9pm
+                                            </li>
+                                            <li class="contact_list">
+                                                9am - 7pm
+                                            </li>
+                                            <li class="contact_list">Closed</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_right">
+                    <div class="map centralize">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.227638879857!2d-101.19918228503136!3d20.57875930836364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842c8504bdbadc73%3A0xd8130fa6aa83e001!2sAltamira+116%2C+Bellavista%2C+36730+Salamanca%2C+Gto.%2C+Mexico!5e0!3m2!1sen!2sca!4v1542421183864"
+                            width="600"
+                            height="450"
+                            frameborder="0"
+                            style="border:0"
+                            allowfullscreen
+                        >
+                        </iframe>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- jQuery?Popper.js?Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
